@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #293241;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  transition: 0.4s ease;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+.service:hover {
+  transform: translatey(-20px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #293241;
+}
+.service img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.cta {
+  text-align: center;
+  margin-top: 30px;
+}
+.Dashboard {
+  margin: 2rem 0;
+  text-align: center;
+}
+.Dashboard .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover styles */
+.Dashboard .btn:hover {
+  background-color: #2980b9;
+  font-weight: bold;
+}
